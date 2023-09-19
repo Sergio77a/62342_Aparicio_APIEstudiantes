@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "f6862dc1-3503-4a5d-8421-21c307d17299",
+		"name": "API Estudiantes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18078032"
+	},
+	"item": [
+		{
+			"name": "Estudiantes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ByID Estudiante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5081/api/estudiantes"
+			},
+			"response": []
+		},
+		{
+			"name": "Estudiante",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Estudiante",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Estudiante",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjcxZmJrX2FOdk9JOUZydl9TRzRMUiJ9.eyJpc3MiOiJodHRwczovL2Rldi1vMXh0amhwd2x1aWluaGRzLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJGRHIyNkdnR2g2aWQ0WURZUEFVYVlmb2hJY2pnYWxYQ0BjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vZXN0dWRpYW50ZXMiLCJpYXQiOjE2OTUwOTcxNzQsImV4cCI6MTY5NTE4MzU3NCwiYXpwIjoiRkRyMjZHZ0doNmlkNFlEWVBBVWFZZm9oSWNqZ2FsWEMiLCJzY29wZSI6InJlYWQ6ZXN0dWRpYW50ZXMgd3JpdGU6ZXN0dWRpYW50ZXMiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.OFJNdKPrVjom5GXoX6UPXXKrNxjA85qYiygqHQy8JpQhlzWn6qQDzHcihSajWS9YcZuC_qSZI3njncbi61l2mpGAwFo4RTmH-wJR_ZQ3C9vFt4E4bTZW0i5VadP-xtD9S6M2C2pVCjrDtKWuuTilOIoUXPu6XsASesOnzHqNFUVJCoCFblnasfHogV1mXejcuNCmhNCGiIhaIaKT7dhPYeWuKWGYA9kn9NK0Xtajbj6LTOli6FbZ5OwTMP6y9sOyg-QUHajnIAnmt_vCDvSQ7rxZXDUJgnN7m7jeU-a02--oC8woEsvKZ-x8Ma6W4tIZJ0rKwnE8lb92cw8Jvm74GA"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5081/api/estudiantes/1"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": {
+			"addTokenTo": "header"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
